@@ -13,6 +13,8 @@ function post_install(){
     info "airline package requires fonts to be installed into the system."
     info "Use the fonts Pearl package:"
     info "> pearl install fonts"
+
+    return 0
 }
 
 function post_update(){
